@@ -12,11 +12,14 @@ body{
 #display{
     background-color: #1a0f0a;
     color:#f5e6d3;
+    height: 70px;
+    padding: 20px;
 }
 #buttons{
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     gap: 5px;
+    border-radius: 10px;
 }
 .num{
     background-color: #3d2b1f;
