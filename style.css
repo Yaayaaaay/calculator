@@ -1,0 +1,36 @@
+#calculator{
+    width: 300px;
+}
+
+body{
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    height:100vh;
+}
+#display{
+    background-color: #1a0f0a;
+    color:#f5e6d3;
+}
+#buttons{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 5px;
+}
+.num{
+    background-color: #3d2b1f;
+    color:#f5e6d3;
+}
+.op{
+    background-color:#4a5e2a;
+    color:#d4e8a0;
+}
+.clear{
+    background-color: #6b2020;
+    color:#f5c0c0;
+}
+#equals{
+    background-color: #6b8c3a;
+    color:#ffffff;
+}
